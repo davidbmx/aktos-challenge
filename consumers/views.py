@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from rest_framework import viewsets, mixins
 
-# Create your views here.
+from consumers.models import Consumer
+from consumers.serializers import ConsumerSerializer
+
+class ConsumerViewset(mixins.ListModelMixin, viewsets.GenericViewSet):
+    queryset = Consumer.objects.all()
+    serializer_class = ConsumerSerializer
+    
