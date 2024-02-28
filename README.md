@@ -1,5 +1,7 @@
 # Aktos Challenge
 
+This application was created with Python and Django and was uploaded in Heroku
+
 ## Endpoints
 
 Base server URI
