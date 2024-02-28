@@ -1,0 +1,10 @@
+asgiref==3.7.2
+dj-database-url==2.1.0
+Django==5.0.2
+django-environ==0.11.2
+django-filter==23.5
+djangorestframework==3.14.0
+pytz==2024.1
+sqlparse==0.4.4
+typing_extensions==4.10.0
+whitenoise==6.6.0
